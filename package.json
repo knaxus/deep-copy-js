@@ -1,0 +1,23 @@
+{
+  "name": "deep-clone",
+  "version": "1.0.0",
+  "description": "Deep copy implementation for pactice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantomlabs/deep-copy-js.git"
+  },
+  "keywords": [],
+  "author": "Ashok Dey <ad@ashokdey.in> (https://ashokdey.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phantomlabs/deep-copy-js/issues"
+  },
+  "homepage": "https://github.com/phantomlabs/deep-copy-js#readme",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
