@@ -1,5 +1,6 @@
 const isObject = (data) => typeof data === 'object';
-const isArray = (data) => Object.prototype.toString.call(data) === '[object Array]';
+const isArray = (data) =>
+  Object.prototype.toString.call(data) === '[object Array]';
 
 const deepClone = (data) => {
   let clone; // can be a premitive, an array or an object
@@ -30,4 +31,6 @@ const deepClone = (data) => {
     }
   }
   return clone;
-}
+};
+
+if (module) module.exports = deepClone;
